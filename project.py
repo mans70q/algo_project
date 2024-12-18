@@ -33,11 +33,6 @@ class HeapSort:
 
         return self.arr
 
-# Analyzing Heap Sort
-# 1. Heapify complexity: O(log n) per element
-# 2. Building the heap complexity: O(n)
-# 3. Sorting complexity: O(n log n)
-# Total: O(n log n)
 
 # Example usage:
 arr = [4, 10, 3, 5, 1]
@@ -97,10 +92,7 @@ class KruskalMST:
 
         return result
 
-# Analyzing Kruskal's Algorithm
-# 1. Sorting edges complexity: O(E log E), where E is the number of edges
-# 2. Find and Union operations: Nearly O(V), where V is the number of vertices
-# Total: O(E log E)
+
 
 # Example usage:
 graph = KruskalMST(4)
